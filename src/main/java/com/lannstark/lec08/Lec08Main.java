@@ -10,6 +10,18 @@ public class Lec08Main {
     for (String str : strings) {
       System.out.println(str);
     }
+
+    for(int i=1; i<=3; i++) {
+      System.out.println(i);
+    }
+
+    for(int i=3; i>=1; i--) {
+      System.out.println(i);
+    }
+
+    for(int i=1; i<=5; i+=2) {
+      System.out.println(i);
+    }
   }
 
 }
