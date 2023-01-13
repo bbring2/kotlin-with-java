@@ -7,7 +7,7 @@ fun main(){
     }
 }
 
-fun main1() {
+fun main2() {
     for(i in 1..3) {
         println(i)
     }
