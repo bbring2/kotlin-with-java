@@ -9,6 +9,7 @@ public class JavaPerson {
     if (age <= 0) {
       throw new IllegalArgumentException(String.format("나이는 %s일 수 없습니다", age));
     }
+
     this.name = name;
     this.age = age;
   }
