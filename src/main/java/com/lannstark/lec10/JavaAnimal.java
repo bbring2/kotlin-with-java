@@ -10,7 +10,7 @@ public abstract class JavaAnimal {
     this.legCount = legCount;
   }
 
-  abstract public void move();
+  abstract public void move(); //움직이는 것
 
   public String getSpecies() {
     return species;
